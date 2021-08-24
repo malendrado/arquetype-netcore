@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="10.1.1" />
+      <PackageReference Include="Dapper" Version="2.0.90" />
+      <PackageReference Include="RestSharp" Version="106.11.8-alpha.0.14" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Backend.Data\Backend.Data.csproj" />
+      <ProjectReference Include="..\Backend.Interfaces\Backend.Interfaces.csproj" />
+      <ProjectReference Include="..\Backend.Models\Backend.Models.csproj" />
+    </ItemGroup>
+
+</Project>
